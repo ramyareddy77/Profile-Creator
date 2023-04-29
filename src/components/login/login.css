@@ -1,0 +1,44 @@
+ .container {
+    background-size: cover;
+    background-image: url('../images/Login-Background.jpg  ');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh ;
+    width: auto ;
+    margin-top:  50px;
+  }
+  
+   .box {
+    width: 400px;
+    height: 300px;
+     background-color: white;
+     border: 2px solid black;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 0px 0px 10px 5px rgba(221, 19, 19, 0.75);
+   }
+   .solid{
+     padding-top: 30px;
+     padding-bottom: 30px;
+     font-size: medium;
+   }
+   .liquid{
+     padding-bottom: 30px;
+     font-size: medium;
+   }
+   .login-button {
+     font-size: 1.2rem;
+     
+     background-color: rgb(61, 61, 85);
+     color: white;
+    width:100%;
+   }
+   .link{
+     padding-top:   20px;
+   }
+  
+    

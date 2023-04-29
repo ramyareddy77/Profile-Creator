@@ -1,0 +1,57 @@
+ .logout-container{
+    background-image: url('../images/image1.jpg ');
+    margin-top: 40px;
+    background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 400px;
+    
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:  150px;
+  }
+  
+  .card-header img {
+    height:   100px;
+    width: 50px;
+  }
+  
+  .card-body {
+    padding: 50px;
+  }
+  
+  .card-body p {
+    font-size: 30px ;
+    margin-bottom: 20px;
+  }
+  
+  .card-body button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    align-items: center;
+  }
+  
+  .card-body button:hover {
+    background-color: #0989d3;
+  }
